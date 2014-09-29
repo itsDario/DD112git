@@ -4,7 +4,61 @@
 		<title>Tables & Forms</title>
 	<head>
 	<body>
-		<table>
+		<h1>FORMS</h1>
+		<form action="code.php" method ="get">
+			<h3>TEXT INPUT</h3>
+			<p>Name
+			<input type="text" name="username" size="20" maxlength="30" />
+			</p>
+			<p>Password
+			<input type="password" name="password" size="20" maxlength="30" />
+			</p>
+			<p>Comments</p>
+			<p>
+			<textarea name="comments" cols="20" rows="5">Comments</textarea>
+			<p>
+			<input type="radio" name="food" value="mangu" />Mangu
+			<input type="radio" name="food" value="crepe" />Crepe
+			<input type="radio" name="food" value="guac" />Gueac
+			</p>
+			<p>
+				What kind of music do you like? <br />
+				<input type="checkbox" name="music" value="Rock"/>Rock
+				<input type="checkbox" name="music" value="Celtic"/>Celtic
+				<input type="checkbox" name="music" value="Metel"/>Metal
+				<input type="checkbox" name="music" value="R&B"/>R&amp;B
+			</p>
+			<p>What is your favourite candy? <br />
+			<select name="candy">
+				<option value="Nerds">Nerds</option>
+				<option value="Skittles">Skittles</option>
+				<option value="Tootsie Roll">Tootsie Roll</option>
+				<option value="Snickers">Snickers</option>
+			</select>
+			</p
+			
+			<p>What is your favourite candy? <br />
+			<select name="candy" size="3" multiple="multiple">
+				<option value="Nerds">Nerds</option>
+				<option value="Skittles">Skittles</option>
+				<option value="Tootsie Roll">Tootsie Roll</option>
+				<option value="Snickers">Snickers</option>
+			</select>
+			</p>
+			
+			<p>Upload a picture of your puppy:<br />
+			<input type="file" name="puppyfile"/><br />
+			<input type="submit" value="Upload" />
+			</p>
+			
+			<p>Subscribe to our mailing list<br />
+			<input type="text" name="email"/><br />
+			<input type="submit" name="Subscribe"  value="Subscribe" />
+			</p>
+			
+		</form>
+	
+		<table border="2">
 			<tr><!--ROW 1-->
 				<th>BREAKFAST</th>
 				<th scope="col">FRENCH</th>
