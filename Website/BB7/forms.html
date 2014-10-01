@@ -5,8 +5,61 @@
 	</head>
 	<body>
 		<a href="../index.html" id="top">Home</a>
-		
-		
+		<form action="code.php" method ="get">
+			<h2>Pigion Man Contact</h2>
+			<p>Name
+			<input type="text" name="username" size="20" maxlength="30" />
+			</p>
+			
+			<p>Password
+			<input type="password" name="password" size="20" maxlength="30" />
+			</p>
+			
+			<p>Comments</p>
+			<p>
+			<textarea name="comments" cols="20" rows="5">Comments</textarea>
+			<p>
+			Comment type
+			<input type="radio" name="type" value="Good" />Good
+			<input type="radio" name="type" value="Bad" />Bad
+			<input type="radio" name="type" value="Mid" />Mid
+			</p>
+			<p>
+				What kind of photos do you like? <br />
+				<input type="checkbox" name="type" value="People"/>People
+				<input type="checkbox" name="type" value="Birds"/>Birds
+				<input type="checkbox" name="type" value="Places"/>Places
+				<input type="checkbox" name="type" value="Objects"/>Objects
+			</p>
+			<p>What is your favourite season?<br />
+			<select name="season">
+				<option value="Spring">Spring</option>
+				<option value="Summer">Summer</option>
+				<option value="Fall">Fall</option>
+				<option value="Winter">Winter</option>
+			</select>
+			</p
+			
+			<p>What other seasons do you like? <br />
+			<select name="moreSeasons" size="3" multiple="multiple">
+				<option value="Spring">Spring</option>
+				<option value="Summer">Summer</option>
+				<option value="Fall">Fall</option>
+				<option value="Winter">Winter</option>
+			</select>
+			</p>
+			
+			<p>Upload a picture of a piece of your Work:<br />
+			<input type="file" name="someArt"/><br />
+			<input type="submit" value="Upload" />
+			</p>
+			
+			<p>Subscribe to My mailing list<br />
+			<input type="text" name="email"/><br />
+			<input type="submit" name="Subscribe"  value="Subscribe" />
+			</p>
+			
+		</form>
 		
 		<a href=#top>go to top</a>
 	</body>
