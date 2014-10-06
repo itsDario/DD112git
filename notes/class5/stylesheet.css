@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, Heletica, sans-serif;
+	color: #666;
+}
+
+h1 {
+	font-size:200px;
+	background-color: #C3C;
+	line-height:160px;
+	text-align:center;
+	text-shadow: 5px 5px 10px #666;
+	color: #000000;
+	/*opacity: 0.7;*/
+}
+
+h2 {
+	font-size:50px;
+	font-weight: normal;
+	/*font-style: italic;
+	text-decoration: underline;*/
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	width: 600px;
+	background-color:111111;
+}
+p {
+	font-size: 18px;
+	font-weight: bold;
+}

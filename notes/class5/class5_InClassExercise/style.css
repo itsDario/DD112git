@@ -1,0 +1,53 @@
+h1 {
+	color: #666;
+	text-shadow: -2px -2px 0px #000000;
+}
+
+h2{
+	text-decoration: overline;
+	background-color: #FFFF00;	
+}
+h2.one{
+	font-size:40px;
+}
+
+h2.two {
+	font-size:20px;
+}
+
+
+/*
+body {
+	font-family: Arial, Heletica, sans-serif;
+	color: #666;
+}
+
+h2 {
+	background-color: FFFF00;
+	
+	font-size:200px;
+	line-height:160px;
+	text-align:center;
+	text-shadow: 5px 5px 10px #666;
+	color: #000000;
+	opacity: 0.7;
+	text-decoration: overline;
+}
+
+h2 {
+
+	font-size:50px;
+	font-weight: normal;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	width: 600px;
+	background-color:111111;
+
+}
+p {
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+*/
