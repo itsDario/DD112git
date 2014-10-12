@@ -1,0 +1,111 @@
+.Soft{
+	background-color: #E8CAAF;
+}
+
+h3.Soft{
+	color: #AAB3AB;
+}
+
+h4.Soft{
+	color: #C8C8A9;
+}
+
+p.Soft{
+	color: #83AF9B;
+}
+
+.Strong{
+	background-color: #1A2B2B;
+}
+
+h3.Strong{
+	color: #8FA691;
+}
+
+h4.Strong{
+	color: #F9FADC;
+}
+
+p.Strong{
+	color: #CC3917;
+}
+
+.Elegant{
+	background-color: #968778;
+}
+
+h3.Elegant{
+	color: #CFCDC8;
+}
+
+h4.Elegant{
+	color: #F7F7F7;
+}
+
+p.Elegant{
+	color: #C8E7E8;
+}
+
+.Pop{
+	background-color: #E64E86;
+}
+
+h3.Pop{
+	color: #FF000;
+}
+
+h4.Pop{
+	color: #00FF00;
+}
+
+p.Pop{
+	color: #0000FF;
+}
+
+.Bright{
+	background-color: #FFFFCC;
+}
+
+h3.Bright{
+	color: #FFE610;
+}
+
+h4.Bright{
+	color: #50FF97;
+}
+
+p.Bright{
+	color: #00FFFF;
+}
+
+.Dark{
+	background-color: #1A2B2B;
+}
+
+h3.Dark{
+	color: #7A0000;
+}
+
+h4.Dark{
+	color: #661111;
+}
+
+p.Dark{
+	color: #800909;
+}
+
+.Moody{
+	background-color: #4E373B;
+}
+
+h3.Moody{
+	color: #FF0000;
+}
+
+h4.Moody{
+	color: #006600;
+}
+
+p.Moody{
+	color: #27ACB5;
+}
