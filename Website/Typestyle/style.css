@@ -1,4 +1,20 @@
 body{
+    max-width: 500px;
+}
+h1{
+	font-size: 25px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 15px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 15px;
 }
 
 .one{
@@ -25,7 +41,6 @@ h5.one{
 	color: #66FFFF;
 }
 .two{
-	font-size: 50px;
 	font-family: "Times New Roman", Georgia, Serif;
 }
 
@@ -106,7 +121,6 @@ h5.four{
 	font-size: 15px;
 }
 
-/*Died of boredom*/
 .five{
 	font-size: 25px;
 	color: ;
@@ -114,6 +128,7 @@ h5.four{
 
 h1.five{
 	text-decoration: underline;
+    text-shadow: 1px 1px #000000;
 }
 h2.five{
 	font-size: 20px;
@@ -133,57 +148,56 @@ h5.five{
 }
 
 .six{
-	font-size: 25px;
-	
     line-height: 8px;
 }
 
 h1.six{
-	font-size: 20px;
 }
 
 h2.six{
-	font-size: 15px;
+vertical-align:sub;
 }
 
 h3.six{
-	font-size: 20px;
+vertical-align:super;
 }
 
 h4.six{
-	font-size: 25px;
+vertical-align:sub;
 }
 
 h5.six{
-	font-size: 25px;
+vertical-align:super;
     line-height: 25px;
 }
 
-/*gahhh*/
 .seven{
-	font-size: 25px;
-	color: ;
+    text-align: center;
 }
 
-
 .eight{
-	font-size: 25px;
-	color: #;
+}
+h1.eight{
+	word-spacing: 30px;
+}
+h2.eight{
+}
+h3.eight{
+	word-spacing: 30px;
+}
+h4.eight{
+}
+h5.eight{
 }
 
 .nine{
-	font-size: 25px;
-	color: #;
+    letter-spacing: 2px;
+}
+
+h5.nine{
+    letter-spacing: initial;
 }
 
 .ten{
-	font-size: 25px;
-	color: #;
 }
 
-/*
-letter-spacing
-word-spacing
-text-align
-vertical-align
-*/
