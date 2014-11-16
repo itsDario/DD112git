@@ -3,8 +3,9 @@
 
 body {
 /*	text-align: center;	*/
-	background-image: url(bunny_1.jpg);
-	background-repeat:repeat;
+	background-image: url(Background.JPG);
+	background-repeat:no-repeat;
+    background-color: #509ac1;
 }
 
 #container {
@@ -19,7 +20,7 @@ body {
 #header {
 	width: 960px;
 	height: 140px;
-	margin: 0px;
+/*	margin: 0px;*/
 	/*border: 1px solid #333;*/	
 /*    text-align: left;*/
 	background-color: #69B3CA;
