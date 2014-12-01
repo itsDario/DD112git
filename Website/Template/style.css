@@ -26,18 +26,19 @@ body {
 	background-color: #69B3CA;
 }
 
-#header img {
+#logo img{
 	margin: 20px 20px 0px 20px;
+    
 }
 
 #header h4 {
     display:inline;
 	margin: 0px;
-    font-size: 20px ;
 }
 
 #header #social {
 	float: right;
+    margin:10px;
 }
 	
 
@@ -51,6 +52,25 @@ body {
 	color: #FFF;
 	padding-top: 12px;
 }
+
+#nav a:link{
+    text-decoration: none;
+    color: #fff;
+}
+#nav a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+#nav a:hover{
+    text-decoration: none;
+    color: #69B3CA;
+}
+#nav a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 #nav ul {
 	margin: 0px;	
@@ -76,9 +96,9 @@ body {
 }
 
 #footer {
-	width: 940px;
-	padding: 10px;
-	height: 150px;
+	width: 100%;
+/*	padding: 0px;*/
+	height: 50px;
 	/*border: 1px solid #333;*/	
 	background-color: #345864;
 }
@@ -93,5 +113,3 @@ body {
 #content p {
     margin: 0px;
 }
-
-
