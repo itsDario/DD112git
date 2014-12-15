@@ -1,14 +1,15 @@
-Lives inside folder on your web space called "final"
-10 pages (first page should be titled index.html)
-A consistent frame that does not change from page to page (Template)
-Both Image (at least 1) and Text (Original Headers + Lorem Ipsum paragraphs) content on every page
-Working links
-Header, Content, Footer Sections
-At least 3 gallery pages with 9+ images on each
-Example of List, Table, & Form
-at least 1 Flash Video or Quicktime Movie
-at least 1 Youtube or Vimeo Video
-at least 1 audio clip
-at least 3 examples of Background Image 
-Slideshow
-Requirements
+Done	Lives inside folder on your web space called "final"
+Done	Example of List, Table, & Form
+Done	A consistent frame that does not change from page to page (Template)
+Done	Header, Content, Footer Sections
+	10 pages (first page should be titled index.html)
+	Both Image (at least 1) and Text (Original Headers + Lorem Ipsum paragraphs) content on every page
+	Working links
+done	At least 3 gallery pages with 9+ images on each
+done	Slideshow
+
+
+	at least 1 Flash Video or Quicktime Movie
+	at least 1 Youtube or Vimeo Video
+	at least 1 audio clip
+	at least 3 examples of Background Image 

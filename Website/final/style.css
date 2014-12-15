@@ -10,7 +10,7 @@ body {
 
 #container {
 	width: 960px;
-	min-height: 800px;
+	min-height: 400px;
 	margin: 0px auto;
 	background-color: #ccc;
 }
@@ -83,7 +83,7 @@ body {
  
 #content {
 	width: 940px;
-	min-height: 800px;
+	min-height: 400px;
 	/*border: 1px solid #333;*/
 	/*margin: 0px;*/
 	padding: 10px;
@@ -148,12 +148,18 @@ body {
 
 
 
-#PhotographersOfTheMonth h3 {
+#blogEntry h3 {
 	text-align: center;
 	font-size: 30px;
 }
 
-
+#blogEntry{
+	width:100%;
+}
+#blogEntry p{
+	padding-left:50px;
+	padding-right: 50px
+}
 
 
 
@@ -182,3 +188,28 @@ body {
 /*
 
 /*end of the template*/
+#aboutMe {
+	display: block;
+	overflow: auto;
+}
+#aboutMe img{
+	float:left;
+	padding:10px;
+}
+#aboutMe h1 {
+	//float: left;
+	padding:10px;
+}
+#aboutMe p{
+	//width:600px;
+	//float: left;
+	padding-top: 20px;
+}
+
+#gallery img{
+	padding:16px;
+}
+
+#contact {
+	text-align: center;
+}
